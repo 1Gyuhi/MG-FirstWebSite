@@ -3,41 +3,6 @@ body {
    background-size: cover;
 }
 
-/**Movil**/
-
-@media (max-width: 767px) {
-    .desktop {
-        display: none;
-    }
-    .tablet {
-        display: none;
-    }
-}
-
-
-/**Tablet**/
-
-@media (min-width: 768px) and (max-width: 990px) {
-    .desktop {
-        display: none;
-    }
-    .movil {
-        display: none;
-    }
-}
-
-
-/**Escritorio**/
-
-@media (min-width: 991px) {
-    .tablet {
-        display: none;
-    }
-    .movil {
-        display: none;
-    }
-}
-
 .contact-form {
 	text-shadow: 2px 2px 10px black;
 	font-size: 25px;
