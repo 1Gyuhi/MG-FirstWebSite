@@ -1,0 +1,52 @@
+.Paragraph {
+	text-align: center;
+  text-shadow: 2px 2px 20px black;
+	 font-family: 'Indie Flower', cursive;
+}
+
+.back-button1{
+	display: flex;
+	justify-content: center;
+}
+
+.back-button {
+	font-family: 'Indie Flower', cursive;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f4a4ac;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #e0b4e4;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.img_gif1, .img_gif2{
+  padding: 10px, 10px;
+  margin: 10px;
+  width: 220px;
+  height: 220px;
+  border-radius: 7px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 1.0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.img_gif1:hover {
+         -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+}
+
+.img_gif2:hover {
+  -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+}
