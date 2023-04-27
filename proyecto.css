@@ -3,16 +3,39 @@ body {
    background-size: cover;
 }
 
-/* dispositivos móviles */
+/**Movil**/
+
 @media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
 }
 
-/* Estilos para tabletas */
-@media (min-width: 768px) and (max-width: 991px) {
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
 }
 
- /*Estilos para pantallas de escritorio */
-@media (min-width: 992px) {
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
 }
 
 .contact-form {
