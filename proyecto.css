@@ -1,6 +1,7 @@
 body {
    background-image: url('images/Background.jpg');
    background-size: cover;
+	padding-top: 50px;
 }
 
 .contact-form {
@@ -110,6 +111,13 @@ body {
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1)
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 50;
 }
 
 .navbar ul{
